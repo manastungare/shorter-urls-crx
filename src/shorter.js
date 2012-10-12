@@ -35,6 +35,7 @@ chrome.pageAction.onClicked.addListener(function(tab) {
    * @private
    */
   var VALID_PARAMS = {
+    'deb': true,
     'num': true,
     'q': true,
     'tbm': true,
